@@ -1,0 +1,9 @@
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; /*박스 생성시 border값을 제외한 올바른 크기를 만듬*/
+}

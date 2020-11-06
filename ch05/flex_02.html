@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <style>
+            .flex-container{
+                display:flex;
+                justify-content: space-around  /* 진행방향 가로!!  flex-start, center, flex-end */
+                
+            } /* space-around, space-evenly, space-between */
+            .item{
+                border:5px solid black;
+                height: 100px;
+                width:200px;
+                
+                display: flex;
+                justify-content: flex-end;  /* justify-content -> 얘는 가로로 가는 진행방향으로 생각하자 */
+                align-items: flex-end; /* align-items -> 얘는 가로의 진행방향에 리버스를 줌으로써 세로로 가는 진행방향이 된다. */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-container">
+            <div class="item">첫번째 박스</div>
+            <div class="item">두번째 박스</div>
+            <div class="item">세번째 박스</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin:  0px;
+    box-sizing: border-box;
+}
+/*버튼, 마진, 폰트사이즈 */
+
+body{
+    background-color: #FAFAFA;
+}
+
+.btn1{
+    margin: 10px 0;
+    background-color: #B2DFFC;
+    height: 30px;
+    color: white;
+    border-radius: 6px; /* 테두리굴곡*/
+    border: 0;
+    font-weight: 700;
+}
+/*mt, mb(margin)*/
+.mt10{
+    margin-top: 10px;
+}
+.mt15{
+    margin-top: 15px;
+}
+.mb{
+    margin-bottom: 10px;
+}
+.a-ink-facebook{
+    color: #385185;
+    font-weight: 700;
+    text-decoration: none; /*하이퍼링크 밑줄제거*/
+}
+.a-link-forget{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+.a-link-join{
+    text-decoration: none;
+    font-size: 15px;
+    color: #0095F6;
+}
