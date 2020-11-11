@@ -1,0 +1,169 @@
+<html>
+
+<head>
+    <title>instagram</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<body>
+    <header class="headers">
+        <div class="header">
+            <div class="header__logo">
+                <a href="instagram.html"><img src="images/instagramlogo.png" alt=""></a>
+            </div>
+            <div class="header__search">
+
+                <input class="header__search__text" type="text" placeholder="검색">
+            </div>
+            <div class="header__right">
+                <div class="header__material" style="display: flex;">
+                    <i class="material-icons" style="font-size: 30px;"><a class="header__material__home"
+                            href="instagram.html">home</a></i>
+                    <i class="material-icons" style="font-size: 30px;"><a class="header__material__explore"
+                            href="explore.html">explore</a></i>
+                    <div class="mb" style="display: flex;">
+                        <div class="good" id="goods">
+                            <i class="material-icons" style="font-size: 30px;"><a
+                                    class="header__material__favorite_border" href="#">favorite_border</a></i>
+                        </div>
+                        <div class="go__profile" id="prof">
+                            <i class="material-icons" style="font-size: 30px;"><a
+                                    class="header__material__account_circle" href="#"
+                                    style="color: grey;">account_circle</a></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main style="position: relative;">
+                        <div style="display: flex; justify-content: flex-end; height: 10px; margin-top: -50px;">
+                            <div id="togle" style="border-radius: 5px; height: 50px; border: 1px solid gray; background-color: white;">
+                                <div class="jq__profile" id="profile__id" style="display: flex; margin-top: 2px;">
+                                    <div style="width:10 auto;">
+                                        <i class="material-icons" style="font-size: 20px;"><a class="header__material__account_circle"
+                                                href="profile.html"
+                                                style="text-decoration: none; color: DBDBDB; margin-left: 13px;">account_circle</a></i>
+                                        <a style="text-decoration: none; color: black;" href="profile.html">프로필</a></div>
+                                </div>
+                                <hr />
+                                <div class="jq__setting" id="setting__id" style="display: flex; margin-top: 2px;">
+                                    <div>
+                                        <i class="material-icons" style="font-size: 18px; margin-left: 15px;"><a
+                                                class="header__material__account_circle" href="setting.html"
+                                                style="text-decoration: none; color: grey;">brightness_5</a></i>
+                                    </div>
+                                    <div><a style="text-decoration: none; color: black;" href="setting.html">설정</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div>
+                            <div id="box__ab" style="position: absolute; border-radius: 5px; margin-left: 400px;  background-color: white;">
+                                <div style="width: 500;">
+                                    <div class="flex__box"
+                                        style="margin-top: 10px; margin-bottom: 10px; display: flex; justify-content: center;">
+                                        <div class="img__round">
+                                            <span class="img_b">
+                                                <img src="images/1.jpg" alt="" style="width: 40px; border-radius: 50%;">
+                                            </span>
+                                        </div>
+                                        <div class="flex__box" style="margin-left: 10px;">
+                                            <div>
+                                                <div style="font-size: 13; font-weight: 800;">77777777777777</div>
+                                                <div class="flex__box">
+                                                    <div style="font-size: 15px;">님이 회원님을 팔로우하기 시작했습니다.</div>
+                                                    <div style="color: grey; margin-left: 10px;">10시간</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button
+                                            style="margin-left: 30px; margin-top: 10px; background-color: #0095F6; color: white;
+                                                                                        border-radius: 5px; border: 0px; width: 60; height: 30; font-size: 15px; font-weight: 800;">팔로우</button>
+                        
+                                    </div>
+                                    <hr />
+                                </div>
+                                <div style="width: 500;">
+                                    <div class="flex__box"
+                                        style="margin-top: 10px; margin-bottom: 10px; display: flex; justify-content: center;">
+                                        <div class="img__round">
+                                            <span class="img_b">
+                                                <img src="images/1.jpg" alt="" style="width: 40px; border-radius: 50%;">
+                                            </span>
+                                        </div>
+                                        <div class="flex__box" style="margin-left: 10px;">
+                                            <div>
+                                                <div style="font-size: 13; font-weight: 800;">77777777777777</div>
+                                                <div class="flex__box">
+                                                    <div style="font-size: 15px;">님이 회원님을 팔로우하기 시작했습니다.</div>
+                                                    <div style="color: grey; margin-left: 10px;">10시간</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button
+                                            style="margin-left: 30px; margin-top: 10px; background-color: #0095F6; color: white;
+                                                                    border-radius: 5px; border: 0px; width: 60; height: 30; font-size: 15px; font-weight: 800;">팔로우</button>
+                        
+                                    </div>
+                                    <hr />
+                                </div>
+                            </div>
+        <div>
+            <div class="explore__container">
+                <div class="container__cat">
+                    <img class="image__cat" src="images/cat.jpg" alt="">
+                </div>
+                <div class="ontainer__man">
+                    <img class="image__man" src="images/man.jpg" alt="">
+                </div>
+                <div class="container__girl">
+                    <img class="image__girl" src="images/girl.jpg" alt="">
+                </div>
+                <div class="container__locat">
+                    <img class="image__locat" src="images/locat.jpg" alt="">
+                </div>
+                <div class="container__bird">
+                    <img class="image__bird" src="images/bird.jpg" alt="">
+                </div>
+                <div class="container__cloth">
+                    <img class="image__cloth" src="images/cloth.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <span class="footer__container">
+            <ul class="footer__container__main">
+                <li><a class="footer__container__text" href="#">소개</a></li>
+                <li><a class="footer__container__text" href="#">블로그</a></li>
+                <li><a class="footer__container__text" href="#">채용 정보</a></li>
+                <li><a class="footer__container__text" href="#">도움말</a></li>
+                <li><a class="footer__container__text" href="#">API</a></li>
+                <li><a class="footer__container__text" href="#">개인정보처리방침</a></li>
+                <li><a class="footer__container__text" href="#">약관</a></li>
+                <li><a class="footer__container__text" href="#">인기 계정</a></li>
+                <li><a class="footer__container__text" href="#">해시태그</a></li>
+                <li><a class="footer__container__text" href="#">위치</a></li>
+                <li><a class="footer__container__text" href="#">한국어</a></li>
+                <li><a class="footer__container__text" href="#">© 2020 Instagram from Facebook</a></li>
+            </ul>
+        </span>
+    </main>
+</body>
+            <script>
+                $("#togle").hide()
+                $("#prof").click(function () {
+                    $("#togle").slideToggle()
+                })    
+            </script>
+            <script>
+                $("#box__ab").hide()
+                $("#goods").click(function () {
+                    $("#box__ab").slideToggle()
+                })
+            </script>
+</html>
